@@ -11,7 +11,6 @@ package jeventi;
  * @author Administrator
  */
 public class Jeventi {
-
     /**
      * @param args the command line arguments
      */
