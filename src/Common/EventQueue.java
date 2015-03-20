@@ -6,21 +6,24 @@
 
 package Common;
 
+import java.util.LinkedList;
+
 /**
  *
  * @author Administrator
  * @param <Event>
  */
 public class EventQueue<Event> {
-
+    private LinkedList<Event> container;
     /**
      *
      * @return
      */
-    public int getEventType()
+    public Class getEventType()
     {
-        return 0;
+        return null;
         
     }
+    
     
 }
