@@ -27,14 +27,18 @@ public class Event {
     {
         this.sender = sender;
     }
-
+    private void setArguments(Object... args)
+    {
+    }
     /**
      *
-     * You must set the sender of event.
+     * You must set the sender of event and arguments of it
      * @param sender
+     * @param args
      */
-    public Event(Object sender)
+    public Event(Object sender,Object... args)
     {
+        this.setArguments(args);
         this.setSender(sender);
     }
     
